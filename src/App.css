@@ -2,38 +2,155 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#start-now {
+  width: 140px;
+  margin-bottom: 20px;
+  align-self: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+#listing-table .MuiTableCell-root {
+  padding: 8px 16px;
+  font-size: 13px !important;
+}
+
+#listing-table > .MuiPaper-root {
+  box-shadow: none;
+}
+
+#app-bar .MuiTabs-root {
+  min-height: 50px;
+}
+
+#app-bar .MuiTab-root {
+  min-height: 50px;
+  min-width: 100px !important;
+}
+@media (min-width: 600px) {
+  #app-bar .MuiTab-root {
+    min-width: 100px !important;
   }
 }
 
-.App-header {
-  min-height: 100vh;
+.app-toolbar-spacer {
+  min-height: 50px !important;
+}
+@media (min-width: 600px) {
+  .app-toolbar-spacer {
+    min-height: 50px !important;
+  }
+}
+
+
+#app-bar .MuiToolbar-regular{
+  min-height: 50px !important;
+}
+@media (min-width: 600px) {
+  #app-bar .MuiToolbar-regular{
+    min-height: 50px !important;
+  }
+}
+
+#bottom-action-bar.MuiToolbar-regular{
+  min-height: 50px !important;
+}
+@media (min-width: 600px) {
+  #bottom-action-bar.MuiToolbar-regular{
+    min-height: 50px !important;
+  }
+}
+
+/*main > div {*/
+/*  min-height: 50px !important;*/
+/*}*/
+/*@media (min-width: 600px) {*/
+/*  main > div {*/
+/*    min-height: 50px !important;*/
+/*  }*/
+/*}*/
+
+.MuiAutocomplete-root .MuiInputBase-root.MuiOutlinedInput-root {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.main-max {
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-bottom: 3rem;*/
+  max-width: 50rem;
+  /*padding-top: 2rem;*/
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.main-nav {
+  padding: 0 !important;
+}
+
+/*@media only screen and (max-width: 34em) {*/
+/*  main {*/
+/*    padding-left: 1rem;*/
+/*    padding-right: 1rem;*/
+/*  }*/
+/*}*/
+/*@media only screen and (max-width: 48em) {*/
+/*  main {*/
+/*    padding-left: 1.5rem;*/
+/*    padding-right: 1.5rem;*/
+/*  }*/
+/*}*/
+
+/*.css-iinaz8 {*/
+/*  width: 100%;*/
+/*  max-width: 1280px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  padding-left: 1.5rem;*/
+/*  padding-right: 1.5rem;*/
+/*}*/
+
+/*.css-wgaeu2 {*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*  margin-bottom: 3rem;*/
+/*  max-width: 46rem;*/
+/*  padding-top: 2rem;*/
+/*  padding-left: 1.25rem;*/
+/*  padding-right: 1.25rem;*/
+/*}*/
+
+.MuiDropzoneArea-root {
+  min-height: 350px !important;
+}
+
+.recipient-card-content {
+  border-left: 4px solid #EFD348;
+  padding: 45px 35px !important;
+
+}
+
+.recipient-button .MuiButton-label {
+  font-size: .7rem !important;
+}
+
+.webviewer {
+  height: calc(100% - 100px)
+}
+
+.loading-container {
+  height: 400px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.help-text {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.64);
+  font-weight: 500;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+.MuiButton-contained {
+  box-shadow: none !important;
 }
